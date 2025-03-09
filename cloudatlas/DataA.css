@@ -1,0 +1,187 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 228, 207);
+}
+
+header {
+    background-color: rgb(230, 228, 207); 
+    color: rgb(87, 162, 174);
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(87, 162, 174);
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.location {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(87, 162, 174);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*new*/
+
+.CloudAtlas-content {
+    text-align: left;
+}
+
+.CloudAtlas-breadcrumb {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.CloudAtlas-breadcrumb a {
+    color: rgb(87, 162, 174);
+    text-decoration: none;
+}
+
+.CloudAtlas-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.CloudAtlas-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.CloudAtlas-description {
+    /*font-size: 16px;
+    line-height: 1.6;
+    margin-left: 15px;
+    display: block;*/
+    line-height: 1.6;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.CloudAtlas-collaboration {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.CloudAtlas-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.download-syllabus {
+    background-color: rgb(87, 162, 174);
+    color: #333;
+    margin-left: 30px;
+}
+
+.CloudAtlas-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/*.next-cohort, .program-duration, .learning-format {
+    text-align: center;
+    justify-content: space-evenly;
+}*/
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.course-item {
+    background-color: rgb(87, 162, 174);
+    height: 50px;
+    width: 28%;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
